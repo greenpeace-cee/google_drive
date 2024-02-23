@@ -1,0 +1,14 @@
+{
+    "name": "greenpeace-cee/google_drive",
+    "type": "project",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Patrick Figel",
+            "email": "pfigel@greenpeace.org"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.15.0"
+    }
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<extension key="google_drive" type="module">
+  <file>google_drive</file>
+  <name>Google Drive</name>
+  <description>Google Drive API Wrapper</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Patrick Figel</author>
+    <email>pfigel@greenpeace.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/greenpeace-cee/google_drive</url>
+    <url desc="Documentation">https://github.com/greenpeace-cee/google_drive</url>
+    <url desc="Support">https://github.com/greenpeace-cee/google_drive/issues</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2024-02-23</releaseDate>
+  <version>1.0.0-alpha.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.57</ver>
+  </compatibility>
+  <comments></comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/GoogleDrive</namespace>
+    <format>23.02.1</format>
+    <angularModule>crmGoogleDrive</angularModule>
+  </civix>
+  <requires>
+    <ext>oauth-client</ext>
+  </requires>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+  </mixins>
+</extension>
