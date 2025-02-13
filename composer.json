@@ -1,6 +1,6 @@
 {
     "name": "greenpeace-cee/google_drive",
-    "type": "project",
+    "type": "civicrm-ext",
     "license": "AGPL-3.0",
     "authors": [
         {
